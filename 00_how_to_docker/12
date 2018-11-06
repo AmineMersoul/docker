@@ -1,0 +1,1 @@
+docker run --name spawning-pool -d -e MYSQL_ROOT_PASSWORD=Keyrrigan -e MYSQL_DATABASE=zerglings --mount source=hatchery,target=/zerglings -d mysql:latest testing_restarts

@@ -1,4 +1,4 @@
-apt-get update
+docker run --rm -it  debian /bin/sh
 apt-get update
 apt-get upgrade
 apt-get install build-essential

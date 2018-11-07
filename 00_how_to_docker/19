@@ -1,0 +1,1 @@
+docker run -it --rm --name Abathur -v "$PWD":/root -w /home -p 3000:3000 python:2-slim python Flask Redis app.py

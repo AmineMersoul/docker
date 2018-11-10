@@ -1,0 +1,14 @@
+{
+    "name": "hello",
+    "version": "1.0.0",
+    "description": "hello",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"0 VETISSE\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.16.2"
+    }
+  }
